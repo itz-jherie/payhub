@@ -1,0 +1,48 @@
+.navbar-container {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid rgb(177, 177, 177);
+  justify-content: space-between;
+  padding:  0 80px;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.568);
+  backdrop-filter: blur(8px);
+}
+.hamburger-menu {
+  display: none;
+  
+}
+.nav-links {
+  padding: 10px
+}
+.nav-links > a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  font-weight: bold;
+
+}
+.nav-links > a:hover {
+  color: #F9A825
+}
+
+@media screen and (max-width: 750px ) {
+  /* .navbar-container {
+
+  } */
+  .hamburger-menu {
+    display: flex;
+    cursor: pointer;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-links {
+    display: none;
+  }
+}
