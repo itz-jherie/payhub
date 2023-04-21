@@ -1,6 +1,5 @@
 .hero-container {
     margin-top: 80px;
-    border: 1px solid red;
     padding: 50px 100px;
     height: 80vh;
     display: flex;
@@ -10,12 +9,10 @@
     display: flex;
     flex-direction: column;
     width: 60%;
-    border: 1px solid red;
     justify-content: center;
 }
 .hero-right {
     width: 40%;
-    border: 1px solid red;
 }
 .hero-header {
     font-size: 48px;
@@ -56,7 +53,7 @@
         width: 100%;
     }
     .hero-download {
-        border: 1px solid red;
+
         display: flex;
         flex-direction: column;
     }
