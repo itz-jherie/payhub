@@ -1,5 +1,6 @@
 import './hero.css'
 import playstore from '../../assets/playstore.svg'
+import heroImg from '../../assets/iphone nft blockchain.png'
 const Hero = () => {
     
     return (  
@@ -13,7 +14,7 @@ const Hero = () => {
                     <button className='play-btn'><img src={playstore}/>Playstore</button>
                 </div>
             </div>
-            <div className='hero-right'>Image hhere</div>
+            <div className='hero-right'><img src={heroImg}/></div>
         </div>
     );
 }

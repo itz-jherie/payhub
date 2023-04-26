@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Tools from './components/Tools/Tools'
+import WhyPayhub from './components/WhyPayhub/WhyPayhub'
 import BankWithUs from './components/BankWithUs/BankWithUs'
 import Footer from './components/Footer/Footer'
 
@@ -17,8 +18,6 @@ function App() {
       <Navbar/>
       <Hero/>
       <Tools/>
-      <BankWithUs />
-      <Footer />
     </div>
   )
 }

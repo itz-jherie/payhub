@@ -14,6 +14,10 @@
 .hero-right {
     width: 40%;
 }
+.hero-right > img {
+    width: 80%;
+    height: 80%;
+}
 .hero-header {
     font-size: 48px;
     font-weight: 600;
@@ -44,13 +48,23 @@
         padding: 0;
         height: max-content;
     }
+    
     .hero-left {
         padding: 10px;
         text-align: center;
         width:100%;
     }
+    .hero-header {
+        font-size: 2em;
+    }
+    .hero-desc {
+        font-size: 0.8em;
+    }
     .hero-right {
         width: 100%;
+    }
+    .hero-right > img {
+       padding: 70px;
     }
     .hero-download {
 
