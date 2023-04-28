@@ -44,7 +44,7 @@ const WhyPayhub = () => {
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
           spaceBetween={20}
           slidesPerView={pages}
-          navigation
+          // navigation
           freeMode={true}
           scrollbar={{ draggable: true }}
           keyboard={true}

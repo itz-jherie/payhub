@@ -1,3 +1,6 @@
+.swiper-scrollbar {
+    display: none;
+}
 .nav-btn-container {
     display: flex;
     justify-content: center;

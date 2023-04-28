@@ -18,6 +18,9 @@ function App() {
       <Navbar/>
       <Hero/>
       <Tools/>
+      <BankWithUs />
+      <WhyPayhub />
+      <Footer />
     </div>
   )
 }

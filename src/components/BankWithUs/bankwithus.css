@@ -1,40 +1,169 @@
-.bankwithus__container {
-    width: 100%;
-    height: 100%;
+.parent__container {
+        width: 100%;
+        padding: 20px 100px;
+        height: 100%;
+        /* display: flex;
+        justify-content: space-between; */
+        background: #FFF0D8;
 }
-.mobile-panel {
-    display: block;
-}
-.desktop-panel {
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .mobile-panel {
-        display: none;
-    }
-    .desktop-panel {
-        display: block;
-    }
-    .swiper {
+.swiper {
         width: 100%;
         height: 100%;
-    }
-    .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+        display: flex;
+}
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* background: #fff; */
+
+        /* Center slide text vertically */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 20px; */
+}
+/* .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+} */
+.left__panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+}
+.left__panel > span {
+        padding: 0 10px;
+        color: #67635C;
+        text-align: left;
+}
+.img {
+        width: 24px;
+        height: 24px;
+}
+h3 {
+        margin-bottom: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+        max-width: 473px;
+        text-align: left;
+        color: #111111;
+}
+hr {
+        overflow: visible; /* For IE */
+        height: 30px;
+        border-style: solid;
+        border-color: #67635C;
+        border-width: 1px 0 0 0;
+        /* border-radius: 20px; */
+        width: 377px;
+        position: relative;
+        margin: 10px 0;
+}
+hr::after {
+        content: " ";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        right: 0;
+        bottom: 23px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: black;
     
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    }
+}
+button {
+        background-color: #F9A825;
+        color: white;
+        /* width: 350px; */
+        height: 52px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        white-space: nowrap;
+        margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+        .parent__container {
+                padding: 10px;
+        }
+        .left__panel > span {
+                padding: 0 10px;
+                color: #67635C;
+                text-align: left;
+                font-size: 16px;
+        }
+        .right__panel > img {
+                display: none;
+        }
+        h3 {
+                margin-bottom: 20px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 39px;
+                max-width: 473px;
+                text-align: left;
+                color: #111111;
+        }
+        hr {
+                overflow: visible; /* For IE */
+                height: 30px;
+                border-style: solid;
+                border-color: #67635C;
+                border-width: 1px 0 0 0;
+                /* border-radius: 20px; */
+                width: 320px;
+                position: relative;
+                margin: 10px;
+        }
+        hr::after {
+                content: " ";
+                width: 10px;
+                height: 10px;
+                position: absolute;
+                right: 0;
+                bottom: 23px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                border: 1px solid black;
+                background-color: black;
+            
+        }
+        button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #F9A825;
+                color: white;
+                width: 250px;
+                height: 52px;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                text-align: center;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                white-space: nowrap;
+                margin: auto;
+        }
+        button > img {
+                margin-left: 10px;
+        }
 }
