@@ -1,12 +1,12 @@
 import './hero.css'
 import playstore from '../../assets/playstore.svg'
-import heroImg from '../../assets/iphone nft blockchain.png'
+import heroImg from '../../assets/heroImg.svg'
 const Hero = () => {
     
     return (  
         <div className='hero-container'>
             <div className='hero-left'>
-                <p className='hero-header'>Send and receive money<br/>from any bank</p>
+                <p className='hero-header'>Experience the <b style={{color: '#F9A825'}}>Future</b> <br/>of Banking with <br /> Payhub</p>
                 <p className='hero-desc'>Payhub makes it easier to send and receive money. <br/>
                 Join us now and get started today</p>
                 <div className='hero-download'>

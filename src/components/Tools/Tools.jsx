@@ -1,8 +1,8 @@
 import './tools.css'
 import playstore from '../../assets/playstore.svg'
-import mobile from '../../assets/mobile banking transaction (2).png'
-import pos from '../../assets/check machine.png'
-import cards from '../../assets/credit cards.png'
+import mobile from '../../assets/mobile.svg'
+import pos from '../../assets/pos.svg'
+import cards from '../../assets/cards.png'
 import loans from '../../assets/Man gives his savings to the bank.png'
 
 const Tools = () => {

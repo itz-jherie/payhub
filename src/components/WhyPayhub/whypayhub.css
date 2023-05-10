@@ -24,11 +24,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 46px 28px;
+  padding: 20px;
+  /* padding: 46px 28px; */
   min-width: 295px;
-  min-height: 328px;
-  height: 400px;
+  /* min-height: 328px; */
+  height: 600px;
   margin-bottom: 20px;
+}
+.slide > * {
+  height: 100px;
 }
 .slide2 {
   min-height: max-content;
@@ -42,7 +46,7 @@
   border-radius: 10px;
 }
 .slide > p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   margin: 20px 0;
   color: #d68a0f;

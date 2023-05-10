@@ -2,7 +2,7 @@
     width: 100%;
 }
 .mobile__footer {
-    background: #F9A825;
+    background: #7D530E;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ main {
     text-decoration: none;
     color: #fff;
 }
-a:hover {
+.mobile__footer a:hover {
     text-decoration: underline;
 }
 .mobile-column-two > div, 
@@ -71,7 +71,8 @@ a:hover {
         justify-content: space-evenly;
         row-gap: 5px;
         padding: 50px 100px;
-        background: #F9A825;
+        /* background: #F9A825; */
+        background: #7D530E;
     }
     .desktop__footer > div {
         margin: 15px 0;
@@ -90,7 +91,7 @@ a:hover {
         text-decoration: none;
         color: #fff;
     }
-    a:hover {
+    .desktop__footer a:hover {
         text-decoration: underline;
     }
     .desktop-column-one {

@@ -12,8 +12,10 @@ import lock from '../../assets/lock.svg'
 import support from '../../assets/support.svg'
 import notification from '../../assets/notification.svg'
 import mobilebanking from '../../assets/mobilebanking.svg'
+import pos from '../../assets/pos.svg'
 import playstore from '../../assets/playstore.svg'
 import card from '../../assets/card.svg'
+import cards from '../../assets/cards.png'
 import flash from '../../assets/flash.svg'
 import clock from '../../assets/clock.svg'
 import track from '../../assets/track.svg'
@@ -51,7 +53,7 @@ const BankWithUs = () => {
                             <button>Get app on playstore <img src={playstore} alt="app store icon"/></button>
                         </div>
                         <div className='right__panel'>
-                            <img src={mobilebanking} alt='a phone performing a mobile banking transaction' />
+                            <img src={mobilebanking} alt='a phone performing a mobile banking transaction' style={{width: '230px', height: '450px'}} />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide style={{ display: 'flex'}}>
@@ -64,7 +66,7 @@ const BankWithUs = () => {
                             <button>Get app on playstore <img src={playstore} alt="app store icon"/></button>
                         </div>
                         <div className='right__panel'>
-                            <img src={checkmachine} alt='a phone performing a mobile banking transaction' />
+                            <img src={pos} alt='a phone performing a mobile banking transaction' style={{width: '400px', height: '450px'}} />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide style={{ display: 'flex'}}>
@@ -77,7 +79,7 @@ const BankWithUs = () => {
                             <button>Get app on playstore <img src={playstore} alt="app store icon"/></button>
                         </div>
                         <div className='right__panel'>
-                            <img src={creditcards} alt='a phone performing a mobile banking transaction' />
+                            <img src={cards} alt='a phone performing a mobile banking transaction' style={{width: '400px', height: '450px'}} />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide style={{ display: 'flex'}}>

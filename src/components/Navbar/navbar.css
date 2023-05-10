@@ -28,12 +28,28 @@
 .nav-links > a:hover {
   color: #f9a825;
 }
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.logo > span {
+  color: #111111;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
 
 @media screen and (max-width: 750px) {
   .navbar-container {
     padding: 0 20px;
     height: 60px;
     background-color: #d68a0f;
+    /* background-color: rgba(255, 255, 255, 0.568); */
+    /* border-bottom: 1px solid rgb(177, 177, 177); */
+    /* backdrop-filter: blur(15px); */
     border: none;
   }
   .hamburger-menu {
@@ -41,6 +57,10 @@
     cursor: pointer;
   }
   .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     text-align: center;
   }
