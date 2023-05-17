@@ -61,17 +61,17 @@
         font-size: 0.8em;
     }
     .hero-right {
-        width: 100%;
+        display: none;
     }
     .hero-right > img {
        padding: 70px;
     }
     .hero-download {
-
         display: flex;
         flex-direction: column;
     }
     .play-btn {
         align-self: center;
     }
+   
 }

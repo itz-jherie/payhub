@@ -11,7 +11,7 @@ const Tools = () => {
             <p>All the tools you need to run your <br/> business with ease</p>
             <div className='tools-img-container'>
                 <div className='tool-item'>
-                    <div className='tool-img'><img src={mobile}/></div>
+                    <div className='tool-img' id='mobile'><img src={mobile}/></div>
                     <p>Mobile Banking</p>
                 </div>
                 <div className='tool-item'>

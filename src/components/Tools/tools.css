@@ -47,6 +47,8 @@
 @media screen and (max-width: 750px) {
   .tools-container {
     padding: 0;
+    margin-top: 50px;
+
   }
   .tools-container > p {
     text-align: center;
@@ -54,15 +56,19 @@
   }
   
   .tool-item {
+    width: 100%;
     margin-right: 0;
     margin: 15px;
     align-items: center;
   }
   .tool-img {
-    width: 70%;
+    width: 100%;
   }
   .tool-img > img {
-    width: 70%;
+    width: 90%;
     height: auto;
   }
+  #mobile {
+    display: none;
+}
 }

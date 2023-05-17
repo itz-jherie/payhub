@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className='hamburger-menu' onClick={() => setShow(!show)}><img src={menu}/></div>
             <div className='logo'>
                 <div><img src={logo} alt='payhub logo' /></div>
-                <span>PAYHUB</span>
+                <span style={{color:'white'}}>PAYHUB</span>
             </div>
             <div className='nav-links'>
                 <a href="#">Company&#9660;</a>
